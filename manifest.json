@@ -5,7 +5,17 @@
     "version": "0.0.1",
     "author": "Kumari AKshara",
     "action": {
-        "default_title": "LinkedIn AdBlocker"
+        "default_title": "LinkedIn AdBlocker",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png"
+        }
+    },
+    "icons": {
+     "16": "icons/icon16.png",
+     "32": "icons/icon32.png",
+     "48": "icons/icon48.png"
     },
     "permissions": [
         "tabs",
