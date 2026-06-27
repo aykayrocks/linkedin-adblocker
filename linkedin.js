@@ -1,7 +1,9 @@
+console.log("IT'S WORKINGGGG")
 function removeAds() {
 
     // Get all 'span' elements on the page
     let spans = document.getElementsByTagName("span");
+    console.log("SPAN COUNT:", spans.length);
 
     for (let i = 0; i < spans.length; ++i) {
         // Check if they contain the text 'Promoted'
@@ -32,6 +34,6 @@ removeAds();
 // Ensures ads will be removed as the user scrolls
 setInterval(function () {
     removeAds();
-}, 100)
+}, 2000)
 
 
